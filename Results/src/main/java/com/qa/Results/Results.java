@@ -46,19 +46,18 @@ public class Results {
 
 		if (percentage() < 60 || physics < 90 || chemistry < 90 || biology < 90) {
 			System.out.println("Unfortunatley, you have failed");
-			
-			if(physics<90) {
-			System.out.println("You have not met the mimimum threshold to pass Physics");
+
+			if (physics < 90) {
+				System.out.println("You have not met the mimimum threshold to pass Physics");
 			}
-			
-			if(chemistry<90) {
+
+			if (chemistry < 90) {
 				System.out.println("You have not met the mimimum threshold to pass Chemistry");
-				}
-			
-			if(biology<90) {
+			}
+
+			if (biology < 90) {
 				System.out.println("You have not met the mimimum threshold to pass Biology");
-				}
-			
+			}
 
 		} else {
 			System.out.println("Congratulations, you have passed \nYou have met the minimum grades for each subject");
